@@ -2,7 +2,7 @@
 const SUPABASE_URL = 'https://zioyegopnuvwzoegaprv.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_uqbZWuYMGjE4pLYQL83Z1Q_xg_GDrB-';
 
-let supabaseClient;
+let supabase;
 let currentUser = null;
 let pendingPurchase = null;
 
